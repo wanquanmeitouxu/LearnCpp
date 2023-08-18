@@ -2,15 +2,16 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc.exe 生成活动文件",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "label": "C/C++: g++.exe 生成活动文件",
+            "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                // "${file}",
+                "*.cpp",//当前文件夹的所有.cpp文件都编译
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "-fexec-charset=GBK"
+                // "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\a.exe"//生成的可执行程序名称
             ],
             "options": {
                 "cwd": "${fileDirname}"
