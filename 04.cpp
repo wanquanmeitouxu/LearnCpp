@@ -1,13 +1,17 @@
 #include <iostream>
 using namespace std;
 int main(){
-    char buf[20];
+    int width = 4;
+    char str[20];
 
-    cin.ignore(7);
-    cin.getline(buf, 10);
+    cout << "Enter a string: \n";
+    cin.width(5);
 
-    cout << buf << endl;
-
+    while(cin >> str){
+        cout.width(width++);
+        cout << str << endl;
+        cin.width(5);
+    }
     system("pause");
     return 0;
 }
