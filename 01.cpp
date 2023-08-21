@@ -4,8 +4,9 @@ using namespace std;
 int main()
 {
     string h;
-    cout<<"ä½ å¥½ä¸–ç•Œ hello world";
-    cin>>h;
-    cout<<"shu ru :"<<h;
+    cout<<"ÄãºÃÊÀ½ç hello world";
+    // cin>>h;
+    // cout<<"shu ru :"<<h;
+    system("pause");
     return 0;
 }

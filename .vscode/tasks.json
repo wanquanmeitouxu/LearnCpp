@@ -7,8 +7,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                // "${file}",
-                "*.cpp",//当前文件夹的所有.cpp文件都编译
+                "${file}",
+                // "*.cpp",//当前文件夹的所有.cpp文件都编译
                 "-o",
                 // "${fileDirname}\\${fileBasenameNoExtension}.exe"
                 "${fileDirname}\\a.exe"//生成的可执行程序名称

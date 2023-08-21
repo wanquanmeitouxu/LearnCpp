@@ -1,4 +1,7 @@
 {
-    "files.encoding": "gb18030",
-    "code-runner.runInTerminal": true
+    "files.encoding": "gbk",
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "string": "cpp"
+    },
 }
